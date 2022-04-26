@@ -14,6 +14,7 @@ def mypage1(req):
 
 def index(request):
     return HttpResponse("""Hello, world. You're at the polls index.<p>
+    
     <a href=works>Works</a><p>
     <a href=worksm>Works Model</a><p>
     <a href=api/data>API Demo</a><p>
