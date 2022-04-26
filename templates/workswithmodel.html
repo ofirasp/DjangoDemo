@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ 'dd' }}</title>
+</head>
+<body>
+{% for job in model %}
+
+  <h1>Your Work: {{ job.Title }}</h1>
+  <p>This Website was developed by {{ job.JobId }}.</p>
+  <p>Now using the Django's Template Engine.</p>
+
+{% endfor %}
+
+<p><a href="{% url 'index' %}">Return to the homepage</a>.</p>
+</body>
+</html>
